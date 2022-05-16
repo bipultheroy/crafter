@@ -457,7 +457,6 @@ section{
 
 
   //Intro section
-
   &#intro{
 
     @include media-breakpoint-up(lg){
@@ -773,6 +772,7 @@ section{
     .section-body-right{
       margin-top: 1.5rem;
     }
+
     .section-content-label{
       margin-bottom: 3.125rem;
       text-transform: unset;
@@ -841,7 +841,6 @@ section{
       }
     }
 
-
     .features-wrapper{
 
       border-left: 1px solid rgba($black, 0.45);
@@ -849,13 +848,24 @@ section{
 
       .btn,
       .sl-no{
-        font-size: 1.5rem;
+        @include font-size(1.375rem);
         font-weight: 700;
         color: rgba($gray-800, 0.5);
+        white-space: nowrap;
       }
+
+      @include media-breakpoint-up(xxl){
+        .btn,
+        .sl-no{
+          font-size: 1.5rem;
+        }
+      }
+
+
       .sl-no{
         margin-right: 0.5rem;
       }
+
       .btn{
         display: block;
         padding: 1.25rem 2.5rem;
