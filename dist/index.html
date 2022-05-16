@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="With all your movie crew members , tools and communication in one place,
+    you can work faster and make movies more flexibly than ever before.">
+    <meta name="author" content="Bipul Roy">
+    <title>Crafter | Imagine a digital movie HQ ...</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#970b0b">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#970b0b">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Slick-theme.css for plugin default styling -->
+    <link rel="stylesheet" type="text/css" href="css/vendors/slick/slick.min.css"/>
+    <!-- Slick-theme.css for plugin default styling -->
+    <link rel="stylesheet" type="text/css" href="css/vendors/slick/slick-theme.min.css"/>
+    <!-- Bootstrap core+custom CSS -->
+    <link href="css/style.min.css" rel="stylesheet"/>
+</head>
+<body>
+<!--The content will be shown when JavaScript is turned off-->
+<noscript>
+    <style>
+        body {
+            background-color: #fff;
+        }
+        .error-container {
+            min-height: 100vh;
+        }
+        .error-container .content-wrapper {
+            padding: 1.25rem;
+            max-width: 31.25rem;
+        }
+        .helpful-links a,
+        .helpful-links a:visited {
+            display: inline-block;
+            font-weight: 500;
+            text-decoration: none;
+            padding-right: 1em;
+        }
+        #root {
+            display: none !important;
+        }
+    </style>
+    <div class="d-flex flex-column justify-content-center align-items-md-center error-container">
+        <div class="content-wrapper">
+            <div class="logo-container">
+                <img src="img/crafter-logo.svg" style="height: 5rem" alt="Crafter logo"/>
+            </div>
+            <h1 class="title-text my-3">JavaScript is not available.</h1>
+            <p>
+                It seems that JavaScript is disabled in this browser. Please enable
+                JavaScript to continue.
+            </p>
+            <p class="font-weight-bold my-3">
+                Here's how to enable javascript in -
+            </p>
+            <div class="helpful-links mb-5">
+                <a href="https://support.google.com/adsense/answer/12654?hl=en"
+                >Google Chrome</a
+                >
+                <a href="https://support.mozilla.org/en-US/questions/967344"
+                >Mozilla Firefox</a
+                >
+                <a
+                        href="https://www.businessinsider.com/how-to-enable-javascript-on-mac"
+                >Safari</a
+                >
+                <a
+                        href="https://support.microsoft.com/en-us/office/enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361"
+                >Microsoft Edge</a
+                >
+                <a
+                        href="https://support.microsoft.com/en-us/office/enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361"
+                >Internet Explorer</a
+                >
+            </div>
+            <small class="small text-muted">©2022 Crafter.Inc</small>
+        </div>
+    </div>
+</noscript>
+
+<!--The main content section-->
+<div id="root" class="">
+
+    <header id="header-main">
+        <nav class="navbar navbar-expand-md navbar-white fixed-top navbar-custom" aria-label="Main navigation" id="navbar-main">
+            <div class="container-fluid container-xl">
+                <a class="navbar-brand" href="#">
+                    <img src="img/crafter-full-logo.png" width="129" height="47" class="d-md-none d-lg-block" alt="Crafter logo">
+                    <img src="img/crafter-logo-c.svg" class="d-none d-md-block d-lg-none" alt="Crafter C logo">
+                </a>
+                <button class="navbar-toggler border-0"
+                        type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvas-menu"
+                        aria-controls="offcanvas-menu"
+                        aria-label="Toggle navigation">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M28 8H4" stroke="#520000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M28 16H12" stroke="#520000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M28.0007 24H9.33398" stroke="#520000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="true"
+                     id="offcanvas-menu" aria-labelledby="offcanvas-menu">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="navbar-collapse">
+                            <ul class="nav navbar-nav ms-md-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#intro">Demo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#solutions">Integrations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#pricing">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#faqs">Blogs</a>
+                                </li>
+                                <li class="nav-item dropdown dropdown-custom">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Use cases
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Use case A</a></li>
+                                        <li><a class="dropdown-item" href="#">Use case B</a></li>
+                                        <li><a class="dropdown-item" href="#">Use case C</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-btn-container ms-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="btn btn-primary text-uppercase navbar-btn fw-bold">Schedule Demo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+
+        <section id="intro" class="container-fluid container-lg ">
+            <div class="section-body d-flex flex-column flex-lg-row">
+                <div class="section-body-left section-text-container">
+                    <div class="font-secondary section-title">Imagine a digital movie HQ ...</div>
+                    <div class="intro">
+                        With all your movie crew members , tools and communication in one place, you can
+                        work faster and make movies more flexibly than ever before.
+                    </div>
+                    <div class="cta-btn-wrapper">
+                        <a href="#" class="btn btn-light cta-btn">Get Started</a>
+                    </div>
+                </div>
+                <div class="section-body-right section-image-container flex-fill">
+                    <div class="image-wrapper">
+                        <img class="section-image" src="img/teams_channel-cinematography1%201.png" height="388" width="620" alt="Teams channel cinematography">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="try-out" class="container-fluid container-lg ">
+            <div class="section-header">
+                <div class="section-content-label">Commands</div>
+                <div class="section-title">Try It Out!</div>
+            </div>
+            <div class="section-body d-flex flex-column flex-lg-row">
+                <div class="section-body-left section-image-container flex-fill">
+                    <div class="image-wrapper active" id="create-channels">
+                        <img class="section-image" src="img/try-it-1.png" width="815" height="510"  alt="Create channels">
+                    </div>
+                    <div class="image-wrapper" id="add-team-members">
+                        <img class="section-image" src="img/try-it-2.png" width="815" height="510" alt="Add team members">
+                    </div>
+                    <div class="image-wrapper" id="organize-work">
+                        <img class="section-image" src="img/try-it-3.png" width="815" height="510" alt="Organize work">
+                    </div>
+                    <div class="image-wrapper" id="be-productive">
+                        <img class="section-image" src="img/try-it-4.png" width="815" height="510" alt="Be productive">
+                    </div>
+                </div>
+                <div class="section-body-right section-text-container flex-fill">
+                    <div class="remote-workflow-container">
+                        <div class="section-content-label">Remoty Workflow</div>
+                        <div class="workflow-items-container">
+                            <div class="btn btn-light cta-btn change-slide-btn active" data-active-frame="create-channels">Create channels</div>
+                            <div class="btn btn-light cta-btn change-slide-btn " data-active-frame="add-team-members">Add team members</div>
+                            <div class="btn btn-light cta-btn change-slide-btn " data-active-frame="organize-work">Organize work</div>
+                            <div class="btn btn-light cta-btn change-slide-btn " data-active-frame="be-productive">Be productive</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="solutions">
+            <div class="section-header">
+                <div class="section-content-label">Problems</div>
+                <div class="section-title">Solved By Crafter</div>
+            </div>
+            <div class="section-body">
+                <div class="section-text-container">
+                    <div class="btn slider-btn prev-slide-btn"></div>
+                    <div class="solutions-container d-flex flex-row solutions-slider">
+                        <div class="slide-wrapper">
+                            <div class="solution-slide">
+                                <div class="slide-content-wrapper">
+                                    <div class="slide-number">04</div>
+                                    <div class="slide-title">File sharing</div>
+                                    <div class="slide-description">When you share files and documents within a
+                                        conversation, you can add the critical details and context you don’t get
+                                        while browsing WhatsApp or email.
+                                    </div>
+                                    <div class="solution-text">Solution</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide-wrapper">
+                            <div class="solution-slide">
+                                <div class="slide-content-wrapper">
+                                    <div class="slide-number">05</div>
+                                    <div class="slide-title">Integrate with other apps</div>
+                                    <div class="slide-description">Import and manage tasks without switching tabs</div>
+                                    <div class="solution-text">Solution</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide-wrapper">
+                            <div class="solution-slide default-center-slide">
+                                <div class="slide-content-wrapper">
+                                    <div class="slide-number">01</div>
+                                    <div class="slide-title">Seamless communication</div>
+                                    <div class="slide-description">This brings the right people and information together in
+                                        channels. You can seamlessly share ideas, make decisions and move work forward
+                                    </div>
+                                    <div class="solution-text">Solution</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide-wrapper">
+                            <div class="solution-slide">
+                                <div class="slide-content-wrapper">
+                                    <div class="slide-number">02</div>
+                                    <div class="slide-title">More organized</div>
+                                    <div class="slide-description">With channels be organized and stay focused with
+                                        conversations, files,tools and people
+                                    </div>
+                                    <div class="solution-text">Solution</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide-wrapper">
+                            <div class="solution-slide">
+                                <div class="slide-content-wrapper">
+                                    <div class="slide-number">03</div>
+                                    <div class="slide-title">Messaging</div>
+                                    <div class="slide-description">When you can easily reach people – whether
+                                        individuals or the whole crew – you can work more effectively. Choose the
+                                        right words to say, and either send your message immediately or schedule
+                                        it for later
+                                    </div>
+                                    <div class="solution-text">Solution</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="btn slider-btn next-slide-btn"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="features" class="container-fluid container-lg ">
+            <div class="section-header">
+                <div class="section-title">Features</div>
+            </div>
+            <div class="section-body d-flex flex-column flex-lg-row">
+
+                <div class="section-body-left section-text-container flex-fill">
+                    <div class="features-container d-flex flex-column flex-md-row flex-lg-column">
+                        <div class="section-content-label text-center text-md-start">In-Stock Dashboard</div>
+                        <div class="features-wrapper flex-fill">
+                            <div class="btn change-slide-btn active" data-active-frame="feature-channels">
+                                <span class="sl-no">01.</span>Channels
+                            </div>
+                            <div class="btn change-slide-btn" data-active-frame="feature-messaging">
+                                <span class="sl-no">02.</span> Messaging
+                            </div>
+                            <div class="btn change-slide-btn" data-active-frame="feature-file-sharing">
+                                <span class="sl-no">03.</span> File Sharing
+                            </div>
+                            <div class="btn change-slide-btn" data-active-frame="feature-security">
+                                <span class="sl-no">04.</span> Security
+                            </div>
+                            <div class="btn change-slide-btn" data-active-frame="feature-integration">
+                                <span class="sl-no">05.</span> Apps and integrations*
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-body-right section-image-container flex-fill">
+                    <div class="section-image-wrapper">
+                        <div class="image-wrapper active" id="feature-channels">
+                            <img class="section-image" src="img/feature-1.png" width="600" height="375" alt="Channels">
+                            <div class="feature-info">See how much time a team member spends on each task</div>
+                        </div>
+                        <div class="image-wrapper" id="feature-messaging">
+                            <img class="section-image" src="img/feature-2.png" width="600" height="375" alt="Messaging">
+                            <div class="feature-info">See how much time a team member spends on each task</div>
+                        </div>
+                        <div class="image-wrapper" id="feature-file-sharing">
+                            <img class="section-image" src="img/feature-3.png" width="600" height="375" alt="File Sharing">
+                            <div class="feature-info">See how much time a team member spends on each task</div>
+                        </div>
+                        <div class="image-wrapper" id="feature-security">
+                            <img class="section-image" src="img/feature-4.png" width="600" height="375" alt="Security">
+                            <div class="feature-info">See how much time a team member spends on each task</div>
+                        </div>
+                        <div class="image-wrapper" id="feature-integration">
+                            <img class="section-image" src="img/feature-5.png" width="600" height="375" alt="Apps and integrations">
+                            <div class="feature-info">See how much time a team member spends on each task</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="pricing" class="container-fluid container-lg ">
+            <div class="section-header">
+                <div class="section-content-label">Pricing</div>
+                <div class="section-title">Choose your Pricing Plan</div>
+            </div>
+            <div class="section-body d-flex flex-column flex-lg-row">
+                <div class="section-body-right section-text-container flex-fill">
+                    <div class="pricing-card-container">
+                        <div class="d-flex flex-column flex-md-row justify-content-center pricing-card-parent-wrapper">
+
+                            <div class="pricing-card-wrapper">
+                                <div class="card pricing-card">
+                                    <div class="pricing-content-wrapper">
+                                        <div class="pricing-title">Freelancers</div>
+                                        <div class="pricing-description">For individuals looking to streamline their tasks</div>
+                                        <ul class="pricing-features list-unstyled">
+                                            <li><span>For movie teams up to 100</span></li>
+                                            <li><span>Upto 100 Users</span></li>
+                                            <li><span>Channels</span></li>
+                                            <li><span>Messaging</span></li>
+                                            <li><span>File sharing</span></li>
+                                            <li class="inactive"><span>Security</span></li>
+                                            <li class="inactive"><span>Support</span></li>
+                                            <li class="inactive"><span>3rd Party Integrations*</span></li>
+                                        </ul>
+                                        <div class="price-wrapper">
+                                            <div class="price text-center">
+                                                <span class="price-text">$0</span>
+                                                <span class="price-user-text">/user</span>
+                                            </div>
+                                        </div>
+                                        <div class="cta-btn-wrapper text-center">
+                                            <a href="#" class="btn btn-dark cta-btn">Add to Slack</a>
+                                        </div>
+                                        <div class="help-info text-center">*No card required</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pricing-card-wrapper">
+                                <div class="card pricing-card">
+                                    <div class="pricing-content-wrapper">
+                                        <div class="pricing-title">Teams</div>
+                                        <div class="pricing-description">For agile teams that want to drive growth</div>
+                                        <ul class="pricing-features list-unstyled">
+                                            <li><span>For movie teams with more than 100 members</span></li>
+                                            <li><span>Unlimited Users</span></li>
+                                            <li><span>Channels</span></li>
+                                            <li><span>Messaging</span></li>
+                                            <li><span>File sharing</span></li>
+                                            <li><span>Security</span></li>
+                                            <li><span>Support</span></li>
+                                            <li><span>3rd Party Integrations*</span></li>
+                                        </ul>
+                                        <div class="price-wrapper">
+                                            <div class="price text-center">
+                                                <span class="price-text">$1</span>
+                                                <span class="price-user-text">/user</span>
+                                            </div>
+                                        </div>
+                                        <div class="cta-btn-wrapper text-center">
+                                            <a href="#" class="btn btn-dark cta-btn">Add to Slack</a>
+                                        </div>
+                                        <div class="help-info text-center">*No card required</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faqs" class="container-fluid container-lg">
+            <div class="section-header">
+                <div class="section-content-label">FAQS</div>
+                <div class="section-title">All you need to know</div>
+            </div>
+            <div class="section-body d-flex flex-column flex-lg-row">
+                <div class="section-body-right section-text-container flex-fill">
+                    <div class="faqs-container d-flex flex-column align-items-center">
+                        <div class="faqs-wrapper ">
+                            <div class="accordion accordion-flush" id="accordion-faqs">
+
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Will I be charged for all the members in my Crafter workspace?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-faqs">
+                                        <div class="accordion-body">No, you will only be charged for the active users.
+                                            Active users refer to the members of your workspace that use the check in
+                                            command more than twice in a single month. The invoice is based on the
+                                            total number of active users in your organization.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Can this software  make my team more productive?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion-faqs">
+                                        <div class="accordion-body">Yes</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Can I cancel my subscription?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion-faqs">
+                                        <div class="accordion-body">Yes, you can cancel, promote or demote your plan anytime.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                            Do you offer refund facility?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordion-faqs">
+                                        <div class="accordion-body">
+                                            Yes we do. Just let us know 30 days before. Refund won't be possible after the time limit exceeds.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header" id="flush-headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                            Can I send invite to my employees?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordion-faqs">
+                                        <div class="accordion-body">Yes, just add them into your workspace and they are good to use.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header" id="flush-headingsix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                            Is there a desktop app for crafter?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordion-faqs">
+                                        <div class="accordion-body">Yes</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="container-fluid container-lg footer-inner-container">
+            <div class="footer-content d-flex flex-row justify-content-between flex-nowrap">
+                <div class="footer-logo-wrapper">
+                    <img class="footer-logo" src="img/crafter-logo.png" width="512" height="512" alt="Crafter C logo">
+                </div>
+                <div class="footer-menu-container d-flex flex-column justify-content-center align-items-center">
+                    <div class="footer-menu-wrapper">
+                        <ul class="nav">
+                            <li class="nav-item"><span class="nav-link">©2022 Crafter,Inc.</span></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact Support</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Your Privacy</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-country text-uppercase">United States</div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!--Chat floating icon-->
+    <div class="chat-bubble">
+        <a href="#" class="chat-icon-wrapper">
+            <svg class="icon" width="28" height="30" viewBox="0 0 28 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V20L4 16H18C18.5304 16 19.0391 15.7893 19.4142 15.4142C19.7893 15.0391 20 14.5304 20 14V2C20 0.89 19.1 0 18 0Z" fill="white"/>
+                <g filter="url(#filter0_d_53_14854)">
+                    <path d="M13 19H15V17H13V19ZM17 19H19V17H17V19ZM21 19H23V17H21V19ZM10 10H26C26.5304 10 27.0391 10.2107 27.4142 10.5858C27.7893 10.9609 28 11.4696 28 12V30L24 26H10C9.46957 26 8.96086 25.7893 8.58579 25.4142C8.21071 25.0391 8 24.5304 8 24V12C8 10.89 8.9 10 10 10Z" fill="white"/>
+                </g>
+                <defs>
+                    <filter id="filter0_d_53_14854" x="7" y="9" width="21" height="21" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="-1" dy="-1"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.4 0 0 0 0 0.8 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_53_14854"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_53_14854" result="shape"/>
+                    </filter>
+                </defs>
+            </svg>
+        </a>
+    </div>
+</div>
+
+
+
+<!--Bootstrap core+popper.js-->
+<script src="js/vendors/bootstrap.bundle.min.js"></script>
+<!--jQuery library-->
+<script src="js/vendors/jquery.min.js"></script>
+<!--Slick carousel -->
+<script src="js/vendors/slick.min.js"></script>
+<!--Custom codes-->
+<script src="js/script.js"></script>
+</body>
+</html>
+

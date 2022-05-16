@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e1e8526-04a5-40b7-834f-5dc8531fb2ba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="290XQMXxisovRxtMId7OkKMg63K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/js/vendors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\dist\js\vendors" />
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\src\libraries" />
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\dist\css\vendors\slick" />
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\src\js\vendors\slick" />
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\src\css\vendors" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\src\js\vendors\jquery" />
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\dist\css\vendors" />
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\src\scss\vendors\slick" />
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\src\scss\vendors" />
+      <recent name="E:\ABian team\Qubexlab\Client-projects\Crafter\src\icons" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e1e8526-04a5-40b7-834f-5dc8531fb2ba" name="Default Changelist" comment="" />
+      <created>1652250961827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652250961827</updated>
+      <workItem from="1652250963393" duration="18816000" />
+      <workItem from="1652325387069" duration="11195000" />
+      <workItem from="1652339369004" duration="1066000" />
+      <workItem from="1652341746317" duration="20819000" />
+      <workItem from="1652374672269" duration="6496000" />
+      <workItem from="1652413801606" duration="14297000" />
+      <workItem from="1652441583332" duration="23329000" />
+      <workItem from="1652501175098" duration="12286000" />
+      <workItem from="1652586607769" duration="978000" />
+      <workItem from="1652588787610" duration="3118000" />
+      <workItem from="1652672143555" duration="4651000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652507853494">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1652507853494" />
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1652513986451">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1652513986451" />
+    <state x="184" y="29" key="SettingsEditor" timestamp="1652349691011">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1652349691011" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1652358367120">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1652358367120" />
+  </component>
+</project>
